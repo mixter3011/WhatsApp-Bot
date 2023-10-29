@@ -30,15 +30,16 @@ The WhatsApp Bot project is a cutting-edge application built with Python and int
    data.
 
 ## Implementation 
-''' bash
-pip3 install twilio flask requests
-  '''
+     ''' bash
+     pip3 install twilio flask requests
+    '''
 After the above proceed to implement the attached main.py code file. The main issue which may arise is that the compiler may return :
-''' bash
-  ERROR: Failed building wheel for multidict
-Failed to build yarl multidict
-ERROR: Could not build wheels for yarl, multidict, which is required to install pyproject.toml-based projects
-'''
+
+    ''' bash
+     ERROR: Failed building wheel for multidict
+    Failed to build yarl multidict
+    ERROR: Could not build wheels for yarl, multidict, which is required to install pyproject.toml-based projects
+    '''
 To solve this issue you may need to import each of the libraries separately and also keep your pip installer up-to-date. 
 
 ## Contributing
