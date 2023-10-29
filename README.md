@@ -41,6 +41,9 @@ After the above proceed to implement the attached main.py code file. The main is
     ERROR: Could not build wheels for yarl, multidict, which is required to install pyproject.toml-based projects
     
 To solve this issue you may need to import each of the libraries separately and also keep your pip installer up-to-date. 
+## Scope 
+
+On further Exploring I found that you can actually clone the WhatsApp API itself to create your own version of WhatsApp however, it is restricted to personal use and one can promote or implement it as the official WhatsApp App. Twilio provides the necessary directions to implement changes across the UI as well as the data limit in WhatsApp such as putting a GIF/ Video as your pfp as well as sending more than 20 MB video files across and no limit restrictions over sending the number of pictures in one iteration. Moreover, the setting.API also allows changes across the UI making it more dynamic than the normal WhatsApp. The only downside to the above-mentioned features is that it is not completely free and to directly change the UI and make significant changes across one needs the premium access to use those tools.   
 
 ## Contributing
 
